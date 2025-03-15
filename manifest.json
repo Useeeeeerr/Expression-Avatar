@@ -1,0 +1,15 @@
+{
+  "display_name": "Expression Avatar",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "html": "index.html",
+  "author": "Monica AI & Useeeeeerr",
+  "version": "1.0.0",
+  "homePage": "https://github.com/Useeeeeerr/ST_expression_avatar",
+  "auto_update": true,
+  "extension_type": "third-party",
+  "description": "Replaces character avatars with expression images in any mode"
+}
