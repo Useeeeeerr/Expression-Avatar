@@ -1,0 +1,73 @@
+/* Expression Avatar 확장 스타일 */
+#expression_avatar_settings {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+#expression_avatar_settings .expression_avatar_header {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#expression_avatar_settings .expression_avatar_header:hover {
+    opacity: 0.8;
+}
+
+#expression_avatar_settings .expression_avatar_block {
+    margin-top: 10px;
+}
+
+.expression_avatar_flex_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.expression_avatar_setting_block {
+    margin-bottom: 15px;
+}
+
+.expression_avatar_setting_block label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.expression_avatar_note {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* 표정 아바타 컨테이너 */
+.expression_avatar_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    pointer-events: none; /* 마우스 이벤트를 아래 요소에 전달 */
+}
+
+.expression_avatar {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* 모바일 대응 스타일 */
+@media (max-width: 780px) {
+    #expression_avatar_settings {
+        font-size: 14px;
+    }
+    
+    #expression_avatar_settings input[type="number"] {
+        width: 70px;
+    }
+}
