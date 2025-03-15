@@ -1,0 +1,35 @@
+<div class="expression_avatar_settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>표정 아바타 모드</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <label class="checkbox_label">
+                <input type="checkbox" id="expression_avatar_enabled">
+                <span>활성화</span>
+            </label>
+            <label class="checkbox_label">
+                <input type="checkbox" id="expression_avatar_keep_original">
+                <span>원본 아바타 유지</span>
+            </label>
+            <div class="expression_avatar_setting_block">
+                <label for="expression_avatar_opacity">원본 아바타 투명도:</label>
+                <input type="range" id="expression_avatar_opacity" min="0" max="1" step="0.1" value="0.5">
+                <span id="expression_avatar_opacity_value">0.5</span>
+            </div>
+            <div class="expression_avatar_setting_block">
+                <label for="expression_avatar_height">아바타 높이 (px):</label>
+                <input type="number" id="expression_avatar_height" min="40" max="500" value="160">
+            </div>
+            <label class="checkbox_label">
+                <input type="checkbox" id="expression_avatar_apply_to_user">
+                <span>사용자 메시지에도 적용</span>
+            </label>
+            <label class="checkbox_label">
+                <input type="checkbox" id="expression_avatar_mobile_support">
+                <span>모바일 지원</span>
+            </label>
+        </div>
+    </div>
+</div>
