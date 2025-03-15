@@ -1,0 +1,37 @@
+/* Expression Avatar 확장 스타일 */
+.expression_avatar_settings {
+    margin: 10px 0;
+}
+
+.expression_avatar_settings label {
+    display: block;
+    margin: 10px 0;
+}
+
+.expression_avatar_settings input[type="number"],
+.expression_avatar_settings input[type="range"] {
+    margin-left: 10px;
+}
+
+/* 표정 오버레이 스타일 */
+.expression-overlay {
+    border-radius: 0;
+    overflow: hidden;
+}
+
+/* 아바타 컨테이너 스타일 오버라이드 */
+.mes .avatar {
+    transition: height 0.3s ease;
+    overflow: hidden;
+}
+
+/* 모바일 대응 스타일 */
+@media (max-width: 780px) {
+    .expression_avatar_settings {
+        font-size: 14px;
+    }
+    
+    .expression_avatar_settings input[type="number"] {
+        width: 70px;
+    }
+}
