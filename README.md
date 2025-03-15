@@ -1,4 +1,4 @@
-# ST_expression_avatar
+# Expression_avatar
 
 # SillyTavern Expression Avatar Extension
 
